@@ -1,0 +1,72 @@
+body {
+  background-color: lightblue;
+  font-family: sans-serif;
+}
+        .navbar {
+            display: flex;
+            position: sticky;
+            align-items: left;
+            justify-content: space-between;
+            top: 0px;
+            background: RGB(0, 189, 255);
+            background-blend-mode: darken;
+            background-size: cover;
+            color: white;
+            margin: 0;
+            padding: 5px 15px;
+        }
+
+        .nav-list {
+            display: flex;
+            padding-left: 0px;
+            list-style: none;
+        }
+
+        .nav-list li {
+            margin-right: 5px;
+            margin-left: 5px;
+            padding-left: 0px;
+        }
+
+        .nav-list li:last-child {
+            margin-right: 0;
+        }
+
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .nav-list li a:hover {
+            color: #ffd700;
+            /* Change the color on hover */
+        }
+
+        .rightNav {
+            text-align: right;
+        }
+
+        #search {
+            padding: 2px;
+            font-size: 16px;
+            border: 2px solid #fff;
+            border-radius: 2px;
+        }
+
+        .btn {
+            background-color: #ffd700;
+            color: #000;
+            border: none;
+            padding: 2px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .btn:hover {
+            background-color: #000;
+            /* Change the background color on hover */
+            color: #ffd700;
+        }
