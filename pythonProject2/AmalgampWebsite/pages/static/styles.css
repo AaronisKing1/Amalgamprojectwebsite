@@ -1,7 +1,7 @@
-body {
-        background-color: lightblue;
-        font-family: sans-serif;
-     }
+html {
+  box-sizing: border-box; }
+
+
         .navbar {
             display: flex;
             position: sticky;
