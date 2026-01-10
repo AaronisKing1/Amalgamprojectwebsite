@@ -2,9 +2,6 @@
 <html>
 <Title>Amalgam Project</title>
 <link rel="stylesheet" type='text/css' href="{% static 'styles.css' %}">
-
-<header>
-<h1>Amalgam Project</h1>
 <nav class="navbar">
     <ul class="nav-list">
         <li><a href="#home">Home</a></li>
@@ -20,5 +17,7 @@
         <button class="btn btn-sm">Search</button>
     </div>
 </nav>
-</header>
+    <h1>Amalgam Project</h1>
+{% block page_title %}{% endblock page_title %}
+{% block page_content %}{% endblock page_content %}
 </html>
