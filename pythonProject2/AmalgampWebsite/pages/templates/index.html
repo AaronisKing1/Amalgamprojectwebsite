@@ -1,15 +1,25 @@
-{% extends "master.html" %}
+{% include 'master.html' %}
+{% block page_title %}
+    <h2>Blog Posts</h2>
+{% endblock page_title %}
 
-{% block title %}
-M
-{% endblock %}
-
-{% block content %}
-  <h1>{{ mymember.firstname }} {{ mymember.lastname }}</h1>
-
-  <p>Phone {{ mymember.phone }}</p>
-  <p>Member since: {{ mymember.joined_date }}</p>
-
-  <p>Back to <a href="/members">Members</a></p>
-
-{% endblock %}
+{% block page_content %}<p>Some text some text some text some text.</p>
+<p>Some text some text some text some text.</p>
+<p>Some text some text some text some text.</p>
+<p>Some text some text some text some text.</p>
+<p>Some text some text some text some text.</p>
+<p>Some text some text some text some text.</p>
+<p>Some text some text some text some text.</p>
+<p>Some text some text some text some text.</p>
+<p>Some text some text some text some text.</p>
+<p>Some text some text some text some text.</p>
+<p>Some text some text some text some text.</p>
+<p>Some text some text some text some text.</p>
+<p>Some text some text some text some text.</p>
+<p>Some text some text some text some text.</p>
+<p>Some text some text some text some text.</p>
+<p>Some text some text some text some text.</p>
+<p>Some text some text some text some text.</p>
+<p>Some text some text some text some text.</p>
+<p>Some text some text some text some text.</p>
+<p>Some text some text some text some text.</p>{% endblock page_content %}
