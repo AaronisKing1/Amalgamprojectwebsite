@@ -4,12 +4,20 @@
 <link rel="stylesheet" type='text/css' href="{% static 'styles.css' %}">
 <nav class="navbar">
     <ul class="nav-list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">Portfolios</a></li>
-        <li><a href="pages/games.html">Games</a></li>
-        <li><a href="#contact">Art</a></li>
+        <li><a href="/home">Home</a></li>
+          <div class="dropdown">
+    <button class="dropbtn">Portfolios
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Art Portfolio</a>
+      <a href="#">Dev Portfolio</a>
+    </div>
+  </div>
+        <li><a href="/games">Games</a></li>
+        <li><a href="/art">Art</a></li>
         <li><a href="https://GameDads.podbean.com">Podcasts</a></li>
-        <li><a href="#services">About Me</a></li>
+        <li><a href="/aboutme">About Me</a></li>
         <li><a href="https://discord.gg/5V7bfA3Kba">Discord</a></li>
     </ul>
     <div class="rightNav">
