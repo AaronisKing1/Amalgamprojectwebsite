@@ -33,3 +33,15 @@ def pages_detail(request, pk):
   }
 
   return render(request, "pages/detail.html", context)
+
+def home(request):
+    return render(request, "index.html")
+
+def games(request):
+    return render(request, "games.html")
+
+def aboutme(request):
+    return render(request, "aboutme.html")
+
+def art(request):
+    return render(request, "art.html")
